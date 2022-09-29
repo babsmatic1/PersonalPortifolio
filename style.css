@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(51,116,51);
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+}
+.menu li{
+    list-style-type: none;
+    margin: 30px;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans';
+}
+#logo{
+    color: green;
+}
+.menu{
+    display: flex;
+}
+
+#bg-img {
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-blend-mode: overlay;
+    background-color: rgb(22, 20, 20);
+    background-size: cover;
+    width: 100%;
+}
+.bg-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+#hone {
+    font-size: 3.5rem;
+    color: white;
+    font-weight: bolder;
+}
+#hthree {
+    color: rgb(117, 245, 117);
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+footer{
+    height:400px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+.foot1 {
+    padding: 70px;
+}
+#hone2 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+#htree{
+    font-size: 1rem;
+    color: whitesmoke;
+    font-style: italic;
+}
+.footdiv ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+.copyright {
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
