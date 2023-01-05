@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 .navbar{
     background-color: rgb(51,116,51);
@@ -46,6 +48,7 @@ a{
     background-size: cover;
     width: 100%;
 }
+
 .bg-text{
     position: absolute;
     top: 50%;
@@ -54,11 +57,13 @@ a{
     width: 100%;
     text-align: center;
 }
+
 #hone {
     font-size: 3.5rem;
     color: white;
     font-weight: bolder;
 }
+
 #hthree {
     color: rgb(117, 245, 117);
     text-align: center;
@@ -74,6 +79,7 @@ footer{
 .foot1 {
     padding: 70px;
 }
+
 #hone2 {
     font-size: 3.5rem;
     font-weight: bolder;
@@ -87,16 +93,64 @@ footer{
 .footdiv ul{
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
-
+    justify-content: space-around;
 }
+
+.footdiv ul li a{
+    font-size: 5px;
+}
+
 .copyright {
     margin: 50px;
     display: flex;
     justify-content: space-around;
 }
 
+@media screen and (max-width:600px) {
+   .navbar{
+    width: 100%;
+   }
 
+   .menu li{
+    margin: 20px;
+   }
+
+    #hone {
+    font-size: 1.9rem;
+    color: white;
+    font-weight: bolder;
+}
+#bg-img{
+    width: 110%;
+    height: 50vh;
+}
+
+#hthree {
+    color: rgb(117, 245, 117);
+    text-align: center;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+#hone2{
+    font-size: 2rem;
+}
+
+.bg-text{
+    top: 30%;
+}
+
+.foot2,.copyright h4{
+    font-size: 0.5rem;
+}
+
+.copyright {
+    display: inline-flex;
+}
+footer{
+    height:500px;
+}
+}
 
 
 
